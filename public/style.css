@@ -1,0 +1,129 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+/* CSS BUAT MENU */
+.button01 {
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  text-align: center;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* CSS BUAT CONTENT */
+.box {
+  height: 40px;
+  width: 30%;
+}
+
+.box_education {
+  height: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stats-img {
+  height: 40px;
+  width: 60px;
+}
+
+.stats-img-2 {
+  width: 70px;
+}
+
+#stats {
+  display: flex;
+}
+
+body {
+  background-image: url(gambar/latarbelakang.jpg);
+  background-repeat: no-repeat;
+}
+
+.buttonstyle {
+  border-radius: 12px;
+  background: rgb(233, 150, 122);
+  font-weight: bold;
+}
